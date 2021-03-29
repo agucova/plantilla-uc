@@ -29,23 +29,18 @@ Para usar la plantilla, debes modificar los dos archivos base, `documento.tex` y
 ```js
 ├── LICENSE.md // licencia
 ├── README.md // este documento
-├── README_original.txt // guía original (en inglés)
 ├── base.tex // documento auxiliar principal
 ├── documento.tex // documento principal
 ├── portada.tex // portada del documento
 ├── formulas.tex // hoja de fórmulas (cheat sheet, opcional)
 ├── emoji.ttf // tipografía para emojis (Noto Color Emoji)
-├── coloremoji.sty // archivo auxiliar para emojis
 ├── imagenes/
 │   ├── delegados2020.png
 │   └── puc_comunitario.png
 ├── preguntas/ // preguntas de ejemplo
-│   ├── alternativas.tex
-│   ├── catorce.tex
-│   ├── doce.tex
-│   └── trece.tex
+│   ├── ...
 ├── out/
-│   └── documento.pdf // PDF de ejemplo
+│   └── documento.pdf // PDF de Salida
 ├── chktexrc // config. de chktex
 └── .latexmkrc // config. de latexmk
 ```
